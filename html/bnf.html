@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+	<html lang="nl">
+		<head>
+			<title>Peter Naur en de Turing Award</title>
+			<meta charset="UTF-8">
+			<link rel="stylesheet" type="text/css" href="../css/csshome.css">
+			<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+			<link rel="icon" type="image/png" href="../images/favicon.ico">
+		</head>
+		<body>
+			<div id="header">
+				<img id="logo" src="../images/logo.jpg" alt="logo">
+				<h1 class="pagetitle">Peter Naur en de Turing Award</h1>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="opdracht.html">Opdracht</a></li>
+					<li class="dropdown">
+						<a href="alanturing.html" class="dropbutton">Alan Turing</a>
+							<div class="dropdown-content">
+								<a href="turingaward.html">Turing Award</a>
+							</div>
+					<li class="dropdown">
+						<a href="peternaur.html" class="dropbutton">Peter Naur</a>
+							<div class="dropdown-content">
+								<a href="algol60.html">Algol-60</a>
+								<a href="bnf.html">BNF-vorm</a>
+								<a href="werken.html">Werken van Peter Naur</a>
+							</div>
+					<li class="dropdown">
+						<a href="contact.html" class="dropbutton">Contact</a>
+							<div class="dropdown-content">
+								<a href="overons.html">Over ons</a>
+								<a href="extra.html">Links & Downloads</a>
+							</div>
+					</li>
+				</ul>
+			</nav>
+				<div class="content"> 
+				<h2>BNF-vorm</h2>
+				<hr>
+				<p>
+				De Backus-Naur-Form, of Backus-Normaal-vorm is een notatie om de structuur van programmeertalen op te bouwen.
+				Het is oorspronkelijk gemaakt door John Backus, ook een winnaar van de <a href="turingaward.html">Turing Award</a>, en later gewijzigd door <a href="peternaur.html">Peter Naur</a>.
+				Het wordt vaak de Backus-Naur-vorm genoemd maar Peter Naur wilde zelf niet dat zijn naam er in voorkwam dus hij noemde het liever de Backus-Normaal-vorm. 
+				<br><br>
+				De BNF is vooral gemaakt om de syntaxis van <a href="algol60.html">Algol-60</a> te beschrijven.
+				De syntaxis is eigenlijk een overzicht van de ‘taalregels’ van het programmeren.
+				Later is het gebruikt voor verschillende andere programmeertalen.
+				<br><br>
+				De BNF-vorm voor Algol-60 zag er zo uit:
+				<pre id="bnf">
+&lt;letter&gt; ::= A|B|C|D|E|F|G|H|I|J|K|L|M|N|O|P|Q|R|S|T|U|V|W|X|Y|Z
+&lt;letter&gt; ::= a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z
+&lt;digit&gt; ::= 0|1|2|3|4|5|6|7|8|9
+&lt;identifier&gt; ::= &lt;letter&gt; | &lt;identifier&gt;&lt;letter> | &lt;identifier&gt;&lt;digit&gt;
+</pre>
+				<p>
+				Hierin betekent het symbool '::=' 'gedefinieerd als' en het symbool '|' betekent 'of'.<br>
+				Er staat dus in andere woorden:
+				<ol>
+					<li class="bnflist">een <span class="schuin">letter</span> kan gedefinieerd worden als <span class="schuin">A</span> of <span class="schuin">B</span> of <span class="schuin">C</span> etc.</li>
+					<li class="bnflist">een <span class="schuin">letter</span> kan gedefinieerd worden als <span class="schuin">a</span> of <span class="schuin">b</span> of <span class="schuin">c</span> etc.</li>
+					<li class="bnflist">een <span class="schuin">digit</span> kan gedefinieerd worden als <span class="schuin">0</span> of <span class="schuin">1</span> of <span class="schuin">2</span> etc.</li>
+					<li class="bnflist">een <span class="schuin">identifier</span> kan gedefinieerd worden als een &lt;letter&gt;;<br> als een &lt;identifier&gt; gevolgd door een &lt;letter&gt;;<br> of als een &lt;identifier&gt; gevolgd door een &lt;digit&gt;.</li>
+				</ol>
+				<p>
+				Het wordt nu dus duidelijk wat er wordt beschreven met een 'letter', een 'digit' en nog belangrijker een 'identifier', een volgorde van letters en digits.
+				Er is veel variatie in de BNF-vorm. Voor veel verschillende programmeertalen zijn verschillende uitbreidingen gemaakt door verschillende ontwikkelaars, zoals extra symbolen of mogelijkheden.
+				Wanneer dus de BNF-vorm uitgebreid is, noemen we dat <span class="schuin">Extended BNF</span> (EBNF) of <span class="schuin">Augmented BNF</span> (ABNF).
+				</p>
+				</div>
+				<div id="footer">
+			<p class="footertext">
+				Informatica Dalton Lyceum Barendrecht 2016<br>
+				Matthijs Doolaar en Charlotte van Rijsoort<br>
+				Docenten: T. Aerts en C.L. Melles
+			</p>
+			</div>
+		</body>
+	</html>

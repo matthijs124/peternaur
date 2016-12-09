@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+	<html lang="nl">
+		<head>
+			<title>Peter Naur en de Turing Award</title>
+			<meta charset="UTF-8">
+			<link rel="stylesheet" type="text/css" href="../css/csshome.css">
+			<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+			<link rel="icon" type="image/png" href="../images/favicon.ico">
+		</head>
+		<body>
+			<div id="header">
+				<img id="logo" src="../images/logo.jpg" alt="logo">
+				<h1 class="pagetitle">Peter Naur en de Turing Award</h1>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="opdracht.html">Opdracht</a></li>
+					<li class="dropdown">
+						<a href="alanturing.html" class="dropbutton">Alan Turing</a>
+							<div class="dropdown-content">
+								<a href="turingaward.html">Turing Award</a>
+							</div>
+					<li class="dropdown">
+						<a href="peternaur.html" class="dropbutton">Peter Naur</a>
+							<div class="dropdown-content">
+								<a href="algol60.html">Algol-60</a>
+								<a href="bnf.html">BNF-vorm</a>
+								<a href="werken.html">Werken van Peter Naur</a>
+							</div>
+					<li class="dropdown">
+						<a href="contact.html" class="dropbutton">Contact</a>
+							<div class="dropdown-content">
+								<a href="overons.html">Over ons</a>
+								<a href="extra.html">Links & Downloads</a>
+							</div>
+					</li>
+				</ul>
+			</nav>
+				<div class="content"> 
+				<h2>Algol-60</h2>
+				<hr>
+				<p>
+				Algol-60 is een programmeertaal die is ontwikkeld door onder andere Peter Naur.
+				Algol staat voor Algorithmic Language, en is ontwikkeld om een machine-onafhankelijke programmeertaal te maken die heel erg lijkt op de wiskundige notatie.
+				De eerste versie van Algol-60, genaamd Algol-58 werd in 1958 gemaakt en was een taal met veel potentie, maar is nooit echt afgemaakt.
+				Twee jaar later kwam Algol-60 uit, gemaakt door drie winnaars van de Turing Award; John Backus, Edsger Dijkstra en Peter Naur.<br><br>
+				Algol-60 is eigenlijk een soort reeks van symbolen. Het zijn, net als vaak in HTML een soort korte woorden, of ‘sleutelwoorden’.
+				Belangrijke symbolen zoals <span class="dik">begin</span>, <span class="dik">if</span> en <span class="dik">end</span> worden veel gebruikt in de programmeertaal.
+				Er zijn verschillende manieren waarop de elementen geformuleerd kunnen worden, zoals tussen aanhalingstekens
+					
+				In Algol-60 worden alle variabelen in drie verschillende soorten geformuleerd. Er zijn drie manieren:
+					<ol>
+						<li class="algol">Integer: bits en bytes, dus tellen met het binaire getalsysteem.</li>
+						<li class="algol">Real: formuleren met een floating point-getal.</li>
+						<li class="algol">Boolean: een waarde met maar twee opties, bijvoorbeeld <span class="schuin">true</span> of <span class="schuin">false</span>.</li>
+					</ol>
+				In Algol-60 zit een bepaald aantal opdrachten die je kan geven, bijvoorbeeld als [voorwaarde] dan [uitvoering] anders [geen actie], oftewel if-then-else.
+				Een voorbeeld van een stukje Algol-60:
+					<pre>
+<span class="dik">begin</span>
+  <span class="dik">integer</span> n;
+  n := .....;
+  <span class="dik">begin</span>
+    <span class="dik">integer array</span>  list[1:n];
+    <span class="dik">integer</span> i;
+    <span class="dik">for</span> i:=1 <span class="dik">step</span> 1 <span class="dik">until</span> n <span class="dik">do</span>
+        list[i]=i;
+    .....
+  <span class="dik">end</span>
+<span class="dik">end</span>
+</pre>
+					
+			<p>		
+				Algol-60 werd later geleerd aan de studenten van de Technische Universiteit Eindhoven door ook één van de grondleggers van Algol-60 en bovendien winnaar van de Turing Award, Edsger Dijkstra.
+				Later kregen studenten op meerdere universiteiten in Nederland hun eerste lessen programmeren met Algol-60.
+				Er zijn veel opvolgers van de Algol-programmeertalen, waaronder Algol-68, een nog meer uitgebreidere taal, C en C++, en Python.
+				Veel andere programmeertalen hebben elementen uit Algol-60 overgenomen.
+			</p>
+				</div>
+				<div id="footer">
+			<p class="footertext">
+				Informatica Dalton Lyceum Barendrecht 2016<br>
+				Matthijs Doolaar en Charlotte van Rijsoort<br>
+				Docenten: T. Aerts en C.L. Melles
+			</p>
+			</div>
+		</body>
+	</html>

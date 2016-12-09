@@ -1,0 +1,241 @@
+body {
+	background-color: #48B7FF;
+	font-family: "Roboto", sans-serif;
+}
+
+div#header {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background-color: #141414;
+	color: white;
+	padding: 10px;
+	box-shadow: 0px 0px 150px 50px rgba(0,0,0,0.5);
+}
+
+div#footer {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	background-color: #141414;
+	color: white;
+	padding: 8px;
+	box-shadow: 0px 0px 150px 50px rgba(0,0,0,0.5);
+}
+
+img, li{
+	float: left;
+}
+
+.caption{
+	font-family: Verdana;
+	font-size: 20px;
+	margin: auto;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2e2e2e;
+	margin-top: 85px;
+}
+
+li a, .dropbutton{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbutton{
+	background-color: #3C81B7;
+}
+
+li.dropdown{
+    display: inline-block;
+}
+
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover{
+	background-color: #f2f2f2
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown-content{
+    display: none;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    position: absolute;
+    background-color: white;
+    min-width: 150px;
+	z-index: 1;
+}
+
+#wrapper{
+	width: 950px;
+    height: 300px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.img{
+	height: 300px;
+	width: 250px;
+	text-align: center;
+}
+
+.icon{
+	height:250px;
+	border-radius: 360px;
+	box-shadow: 0 0 3px 2px #3C81B7;
+}
+
+.caption{
+	height: 50px;
+	color: black;
+	font-family: "Roboto", sans-serif;
+}
+
+#left{
+	margin-right: 50px;
+	float: left;
+}
+
+#middle{
+	margin-left: 50px;
+	margin-right: 50px;
+	float: left;
+}
+
+#right{
+	margin-left: 50px;
+	float: left;
+}
+
+a, .front{
+	text-decoration: none;
+}
+
+.cap{
+	font-size: 30px;
+}
+
+#logo{
+	width: 48px;
+	background-color: white;
+	border: 2px solid #141414;
+	border-radius: 5px;
+	padding: 2px;
+	float: right;
+	margin-right: 20px;
+}
+
+.pagetitle{
+	margin-left: 10px;
+	text-align: left;
+	font-size: 22px;
+}
+
+.footertext{
+	font-size: 12px;
+	font-style: italic;
+	margin-left: 10px;
+	color: gray;
+}
+
+.content{
+	background-color: white;
+	width: 1000px;
+	margin: auto;
+	margin-top: 30px;
+	padding: 35px;
+	border: 5px solid #3C81B7;
+	margin-bottom: 110px;
+}
+
+pre{
+	text-align: left;
+	background-color: #f2f2f2;
+	padding: 5px;
+	width: 300px;
+}
+
+input{
+	margin: 10px;
+}
+
+.opmerking{
+	margin: 10px 10px 10px 0;
+}
+
+.contentimage{
+	height: 200px;
+	margin-right: 20px;
+	box-shadow: 0 0 3px 2px #3C81B7;
+}
+
+#turingpagina{
+	padding-bottom: 50px;
+}
+
+.schuin{
+	font-style: italic;
+}
+
+.algol, .bnflist{
+	float: initial;
+}
+
+.dik{
+	font-weight: bold;
+}
+
+#bnf{
+	width: 500px;
+}
+
+#bnflist{
+	float: none;
+}
+
+.bnflist{
+	list-style-type: upper-roman;
+}
+
+.infocell{
+	text-align: center;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+iframe{
+	width: 560px;
+	height: 315px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	box-shadow: 0 0 3px 2px #3C81B7;
+	border: none;
+}
+
+audio{
+	margin-bottom: 15px;
+	box-shadow: 0 0 3px 2px #3C81B7;
+}
