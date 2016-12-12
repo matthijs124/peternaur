@@ -1,0 +1,1 @@
+Dit is de website van Charlotte en Matthijs over Peter Naur en de Turing Award. Deze website wordt nog gewijzigd en er wordt nog aan gesleuteld. Deze website is een opdracht voor Informatica in VWO 4 op het Dalton Lyceum Barendrecht.
